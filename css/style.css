@@ -1,0 +1,543 @@
+/* common css start */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* common css end */
+
+/* navigation part start */
+#nav_bar{
+    margin-top: 100px;
+}
+#nav_bar .items{
+    display: flex;
+}
+#nav_bar .items .text{
+    width: 50%;
+}
+#nav_bar .items .text h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #e02c4a;
+    text-transform: capitalize;
+}
+#nav_bar .items .menu_part{
+    width: 50%;
+}
+#nav_bar .items .menu_part ul{
+    text-align: end;
+}
+#nav_bar .items .menu_part ul li{
+display: inline-block;
+padding-left: 25px;
+}
+#nav_bar .items .menu_part ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #E02C6D;
+    text-transform: capitalize;
+    transition: .4s;
+}
+#nav_bar .items .menu_part ul li  a:hover{
+    color: #3a3a3a;
+    transition: .4s;
+}
+#nav_bar .items .menu_part ul li a i{
+font-size: 20px;
+transform: scale(1);
+transition: .4s;
+}
+#nav_bar .items .menu_part ul li a i:hover{
+    transform: scale(1.3);
+    transition: .4s;
+    }
+
+/* navigation part end */
+/* banner part start */
+#banner_part{
+    margin-top: 100px;
+}
+#banner_part .main{
+display: flex;
+justify-content: space-between;
+}
+#banner_part .main .items{
+    width: 50%;
+}
+#banner_part .main .items .left h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    color: #e02c4a;
+}
+#banner_part .main .items .left p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3a3a3a;
+    line-height:26px;
+    padding-top: 15px;
+    width: 600px;
+}
+#banner_part .main .items .left .btn{
+    margin-top: 50px;
+}
+#banner_part .main .items .left .btn a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    padding: 20px 35px;
+    border-radius: 50px;
+    background: #fbaa33;
+    transition: .4s;
+}
+#banner_part .main .items .left .btn a:hover{
+    background: #e02c4a;
+    transition: .4s;
+}
+#banner_part .main .items .left .btn a i{
+    padding-left: 10px;
+}
+#banner_part .main .items .image_right{
+    text-align: right;
+}
+#banner_part .main .items .image_right img{
+    transform: scale(1);
+    transition: 1s;
+}
+#banner_part .main .items .image_right img:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+/* banner part end */
+
+/* e-commerce part start */
+#e-commerce_part{
+    margin:100px 0;
+}
+#e-commerce_part .main .items{
+display: flex;
+justify-content: space-around;
+border-top: 2px solid #f2f2f2;
+border-bottom: 2px solid #f2f2f2;
+padding: 30px 30px;
+}
+#e-commerce_part .main .items img{
+    width: 80px;
+}
+/*e-commerce part part end  */
+/* collection part start */
+#collection_part{
+    margin-bottom: 100px;
+}
+#collection_part .text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #E02C6D;
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+#collection_part .main .row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 85%;
+    margin-left: 100px;
+}
+#collection_part .main .row .items{
+    width: 330px;
+    box-shadow: 1px 1px 14px 1px gray;
+    border-radius: 5px;
+}
+#collection_part .main .row .items .image{
+    text-align: center;
+    padding-top: 17px;
+}
+#collection_part .main .row .items .text{
+    padding-left: 15px;
+    padding-bottom: 17px;
+}
+#collection_part .main .row .items .text h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: #18191f;
+    padding-top: 16px;
+}
+#collection_part .main .row .items .text h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 6px;
+}
+#collection_part .main .row .items .text .icons{
+    padding: 8px 0;
+}
+#collection_part .main .row .items .text .icons i{
+    font-size: 20px;
+    color: #FB8200;
+}
+#collection_part .main .row .items .text .icons span{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color:#5E6366;
+    padding-left: 10px;
+}
+#collection_part .main .row .items .text p{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #787885;
+    padding-top: 5px;
+}
+#collection_part .main .btn{
+    margin-top: 50px;
+    text-align: right;
+    margin-right: 95px;
+}
+#collection_part .main .btn a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fbaa33;
+    text-transform: capitalize;
+    transition: .4s;
+}
+#collection_part .main .btn a i{
+    padding-left: 8px;
+}
+#collection_part .main .btn a:hover{
+    color: #E02C6D;
+    transition: .4s;
+}
+/* collection part end */
+
+
+/* get in touch part start */
+#touch{
+    margin-bottom: 100px;
+ }
+ #touch .text{
+     text-align: center;
+     margin-bottom: 50px;
+ }
+ #touch .text h2{
+     color: #353535;
+ font-size: 24px;
+ font-family: 'Raleway', sans-serif;
+ font-weight: 700;
+ text-transform: uppercase;
+ }
+
+ #touch .tcenter{
+     text-align: center;
+     display: flex;
+     justify-content: space-around;
+ }
+ #touch .tcenter .col1{
+ width: 28%;
+ }
+ #touch .tcenter .col1 .form-control{
+     margin-bottom: 30px;
+ height: 50px;
+ border: 1px solid#353535;
+ color: #555555;
+ font-family: 'Open sans', sans-serif;
+ font-size: 14px;
+ border-radius: 8px;
+ width: 100%;
+ padding: 0 12px;
+ }
+ #touch .col2{
+     width: 95%;
+     margin: 0 35px;
+     text-align: center;
+ }
+ #touch .col2 .form-control{
+ margin-bottom: 30px;
+ height: 50px;
+ border:1px solid #353535;
+ color: #555555;
+ font-family: 'Open sans', sans-serif;
+ font-size: 14px;
+ border-radius: 8px;
+ width: 100%;
+ padding: 6px 12px;
+ height: 200px;
+ }
+ #touch .col2 .btn{
+     border-radius: 3px;
+     height: 33px;
+     width: 88px;
+     background: #E02C6D;
+     color: #fefefe;
+     font-size: 18px;
+     font-family: 'Raleway', sans-serif;
+     font-weight: 700;
+     text-transform: capitalize;
+     border: 1px solid transparent;
+     cursor: pointer;
+     transition: 1s;
+ }
+ #touch .col2 .btn:hover{
+     background: #fff;
+ color: #E02C6D;
+ border-color: #E02C6D;
+ transition: 1s;
+ }
+ /* --------------get in touch part end-------------- */
+
+/* footer part start */
+footer{
+     background-color: #0a0826;
+     padding: 50px 0;
+     text-align: center;
+ }
+ footer .container h3{
+    font-family: 'The Nautigal', cursive;
+    font-size: 24px;
+    font-weight: 700;
+    color: #f2f2f2;
+    padding-bottom: 5px;
+ }
+ footer .container p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #f2f2f2;
+    padding-bottom: 5px;
+ }
+ footer .container .social_icon{
+     margin-top: 17px;
+ }
+ footer .container .social_icon i{
+     height: 32px;
+     width: 32px;
+     line-height: 32px;
+     color: #fff;
+     border-radius: 50%;
+     background: rgba(255, 255, 255, 0.2);
+    margin-left: 16px;
+    transform: scale(1);
+    transition: 1s;
+    cursor: pointer;
+ }
+ footer .container .social_icon i:hover{
+     transform: scale(1.5);
+     transition: 1s;
+ }
+ /* footer part end */
+
+
+
+/* _______________media query for mobile device_______________ */
+ @media only screen and (max-width:688px) {
+     .container{
+        max-width: 100%;
+     }
+
+   /* navigation part start */
+   .navigation{
+       flex-direction: column;
+   }
+
+   .nav_menu{
+    display: none;
+   }
+   #nav_bar .items .text{
+       width: 100%;
+   }
+   #nav_bar .items .text h3{
+    text-align: center;
+}
+   /* navigation part end */
+
+
+  /* banner part */
+.banner_flex{
+    flex-direction: column;
+}
+
+#banner_part .main .items{
+    width: 100%;
+}
+#banner_part .main .items .left h1{
+    font-size: 32px;
+    text-align: center;
+}
+#banner_part .main .items .left p{
+    width: 99%;
+    text-align: center;
+}
+#banner_part .main .items .left .btn{
+    text-align: center;
+}
+
+.image_right{
+    width: 100%;
+    padding-top: 50px;
+}
+.image_right img{
+width: 80%;
+}
+#banner_part .main .items .image_right img:hover{
+    transform: scale(1);
+}
+
+/* ecommerce part start */
+.img_ecommerce img{
+    display: block;
+}
+
+#e-commerce_part{
+    display: none;
+}
+/* ecommerce part end */
+
+/* collection part start */
+.collection_row{
+    flex-direction: column;
+}
+#collection_part .text{
+    padding-top: 50px;
+}
+#collection_part .main .row{
+    margin-left: 50px;
+}
+
+#collection_part .main .row .items{
+    margin-top: 30px;
+}
+#collection_part .main .row .items .text{
+    padding-top: 0;
+}
+#collection_part .main .btn{
+    margin-right: 40px;
+}
+/* collection part end */
+/* --------------get in touch part start-------------- */
+#touch{
+    display: none;
+}
+/* --------------get in touch part end-------------- */
+
+ }
+
+
+/* _______________media query for mobile device_______________ */
+
+
+
+/* _______________media query for tablet device_______________ */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container{
+       max-width: 100%;
+    }
+
+  /* navigation part start */
+  .navigation{
+      flex-direction: column;
+  }
+
+  .nav_menu{
+   display: none;
+  }
+  #nav_bar .items .text{
+      width: 100%;
+  }
+  #nav_bar .items .text h3{
+   text-align: center;
+}
+  /* navigation part end */
+
+
+ /* banner part */
+.banner_flex{
+   flex-direction: column;
+}
+
+#banner_part .main .items{
+   width: 100%;
+}
+#banner_part .main .items .left h1{
+   font-size: 32px;
+   text-align: center;
+}
+#banner_part .main .items .left p{
+   width: 99%;
+   text-align: center;
+}
+#banner_part .main .items .left .btn{
+   text-align: center;
+}
+
+.image_right{
+   width: 100%;
+   padding-top: 50px;
+}
+.image_right img{
+width: 80%;
+}
+#banner_part .main .items .image_right img:hover{
+   transform: scale(1);
+}
+
+/* ecommerce part start */
+.img_ecommerce img{
+   display: block;
+}
+
+#e-commerce_part{
+   display: none;
+}
+/* ecommerce part end */
+
+/* collection part start */
+.collection_row{
+   flex-direction: column;
+}
+#collection_part .text{
+   padding-top: 50px;
+}
+
+#collection_part .main .row .items{
+   margin-top: 30px;
+   margin-left: 130px;
+}
+#collection_part .main .row .items .text{
+   padding-top: 0;
+}
+#collection_part .main .btn{
+   margin-right: 178px;
+}
+/* collection part end */
+/* --------------get in touch part start-------------- */
+#touch{
+   display: none;
+}
+/* --------------get in touch part end-------------- */
+
+}
+
+
+/* _______________media query for tablet device_______________ */
